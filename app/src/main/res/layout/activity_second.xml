@@ -1,0 +1,23 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW ALL MOVIES WITH THIS RATING"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerItems"/>
+
+    <ListView
+        android:id="@+id/lvMovies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
